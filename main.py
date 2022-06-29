@@ -15,7 +15,7 @@ deluxeWeatherOption = input("would you like the deluxe weather package?yes or no
 # Asking customer for Interior option
 print("a.I-4 Entry Engine\n b.V-6 Performance Engine\n c. Eco Diesel Engine.")
 engineOption = input("a.b.c.")
-heatedSeats =("would you like to heated seats?")
+heatedSeats =("would you like to heated seats?yes or no")
 # Display the sumarry of the customer option?
 print("===================")
 print("~Summary~")

@@ -1,0 +1,52 @@
+print("=================")
+print ("Welcome to the UMBC")
+print("project:Story Time")
+print("main goal is to mastering the use of nested if/elif/else chains and using expression to evaluate True or False statement.")
+print()
+#THE RIDDLES OF A MAN ,LION,GOAT AND GRASS
+
+print("man has a lion, goat and grass He has to pass through the river with one boat, but...?the boat can only carry 2 things at a time ")
+# The man has steps to take to fulfill his mission .
+
+print("1.steps needs to be taken to solve this problem,enter the letter of the selection for the option listed below:")
+
+# print the solution for steps in this mutltiple choice A- c:
+print("    a.The man and the lion ,the goat will eat the grass")
+print("    b.Man and grass,lion will eat the goat ")
+print("    c.The grass and the lion.")
+stepOne = input("enter 'a  - 'c:' ")
+print()
+
+stepOne  = "a. the man and the lion "
+stepTwo = "b. the man and the grass"
+stepThree = "c. the grass and the lion , "
+if stepTwo == "a the man and the grass ":
+  if stepOne =="b.the man and the lion ":
+    print("the goat is save")
+    print ("the grass is save ")
+else:
+  print("the lion wil kill the goat ")
+  print("the goat will eat the grass.")
+# lets check if the man pick the lion leaving  the goat:
+stepOne  = "a. the man and the lion whith goat "
+stepTwo = "c. the man and the grass"
+stepThree = "b. the grass and the lion , "
+if stepTwo == "a the man and the grass ":
+  if stepOne =="b.the man and the lion ":
+    print("goat will eat the grass ")
+else:
+  print ("takin the goat and leaving the the grass with the lion is the best soulution")
+# lets creat and expression for this to be True or False
+stepOne = True
+stepTwo  = True
+if stepOne == True and stepTwo :
+  print("the man completed his mission.")
+# Since we making use of booleans to make decision .the result will be true.but lets make step one false
+
+stepOne = False
+step_step_three  = True
+if stepOne == True and stepTwo :
+  print("the man completed his mission ")
+else:
+  print("uncompleted mission.")
+
